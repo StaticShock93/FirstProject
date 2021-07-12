@@ -4,7 +4,7 @@ body, html {
     }
 
 #hero {
-    height: 100vh;
+    min-height: 100vh;
     background: #141E30;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #243B55, #141E30);
@@ -14,7 +14,6 @@ body, html {
 }
 
 .taskContainer {
-    min-height: 100vh;
     background-color: white;
     border: solid .5em #ffc107;
     border-radius: .5em;
